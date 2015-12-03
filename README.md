@@ -26,3 +26,7 @@ Send messages to a database in the cloud and get the messages sent by other pers
 Follow the changes in the DB within the link:
 
 https://i1cxkjpynl8.firebaseio-demo.com/
+
+# Install
+
+There's no installation. To make things work, just extract all the files in the same directory and make sure you're online to get the files from theirs respective CDNs.
