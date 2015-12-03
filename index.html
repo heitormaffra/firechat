@@ -1,0 +1,47 @@
+<!Doctype HTML>
+<html>
+  <head>
+   <title>Firebase + Material Design</title>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css" />
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">    
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Chat Room</span>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Sidebar</span>
+          <nav class="mdl-navigation">
+            <span class="mdl-navigation__link" id="clear">Clear name</span>
+          </nav>
+      </div>
+      <div class="conteiner">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="name">
+          <label class="mdl-textfield__label" for="name">Insert name</label>
+        </div>
+        <span class="mdl-layout-title">Chating:</span><br />
+        <div class="chat-panel" />
+      </div>
+    </div>
+    <div id="bottom-page">
+      <div class="mdl-textfield mdl-js-textfield" id="writter">
+        <input class="mdl-textfield__input" type="text" id="message">
+        <label class="mdl-textfield__label" for="message">Message...</label>
+      </div>
+      <div id="right">        
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="okButton">
+          <strong>Ok</strong>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
